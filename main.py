@@ -18,7 +18,7 @@ with open("email_sender/template.txt", "r", encoding="utf-8") as template_file:
     email_template = template_file.read()
 
 # Example usage
-recipient_email = "gabrielpires@discente.ufg.br"
+recipient_email = config["receiver_email"]
 subject = "Olá, Mundo!"
 
 # Use the email template as the message content
