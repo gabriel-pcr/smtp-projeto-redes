@@ -1,0 +1,9 @@
+config.json
+venv/
+
+modules.xml
+vcs.xml
+smtp-redes.iml
+.idea
+
+__pycache__/
